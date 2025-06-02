@@ -3,20 +3,28 @@ body {
 }
 
 header {
+    top: 0px;
     width: 100%;
     height: 80px;
-    background-color: rgb(36, 36, 155);
+    background-color: rgb(54, 54, 170);
     display: flex;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: fixed;
+    z-index: 1000;
 }
 
 .links {
-    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    top: 80px;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
 }
 
 a {
@@ -36,9 +44,25 @@ h3 {
 }
 
 .links a:hover {
-    color: rgb(36, 36, 155);
+    color: rgb(54, 54, 170);
 }
 
+.secoes {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    background: linear-gradient(to top, #2760db, white);
+    
+}
 
 .titleSecao {
     margin: 50px 0px 10px 40px;
@@ -47,10 +71,20 @@ h3 {
     font-style: normal;
 }
 
+.titleSecao h2 {
+    scroll-margin-top: 210px;
+}
+
 .conteudo {
     display: flex;
     gap: 20px;
     align-items: flex-start;
+}
+
+.imgDesc {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
 }
 
 p {
@@ -64,5 +98,6 @@ footer {
     width: 100%;
     height: 200px;
     background-color: black;
+    margin-top: 50px;
 }
 
