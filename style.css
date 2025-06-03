@@ -6,7 +6,7 @@ header {
     top: 0px;
     width: 100%;
     height: 80px;
-    background-color: rgb(54, 54, 170);
+    background-color: #0b1323;
     display: flex;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
@@ -14,6 +14,11 @@ header {
     font-style: normal;
     position: fixed;
     z-index: 1000;
+}
+
+.logo {
+    height: 70px;
+    padding: 5px;
 }
 
 .links {
@@ -44,7 +49,7 @@ h3 {
 }
 
 .links a:hover {
-    color: rgb(54, 54, 170);
+    color: #09bbbb;
 }
 
 .secoes {
@@ -60,7 +65,7 @@ section {
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 35px;
-    background: linear-gradient(to top, #2760db, white);
+    background: linear-gradient(to top, #616a7e, white);
     
 }
 
@@ -82,12 +87,13 @@ section {
 }
 
 .imgDesc {
-    width: 300px;
-    height: 300px;
+    width: 480px;
+    height: 390px;
     margin-right: 40px;
+    border: 1px solid black;
 }
 
-p {
+p, ul {
     margin-left: 40px;
     font-family: "Belleza", sans-serif;
     font-weight: 400;
@@ -97,7 +103,7 @@ p {
 footer {
     width: 100%;
     height: 200px;
-    background-color: black;
+    background-color: #0b1323;
     margin-top: 50px;
 }
 
